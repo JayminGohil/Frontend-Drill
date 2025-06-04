@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="left-content">
+                <a href="#" class="back-button">Back to website</a>
+                <div class="text-animation">
+                    <h1 class="main-heading">Capturing Moments,</h1>
+                    <h1 class="sub-heading">Creating Memories</h1>
+                </div>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <img src="assets/image.jpg" alt="Desert Background" class="background-image">
+        </div>
+        <div class="right-section">
+            <div class="form-container">
+                <h2>Create an account</h2>
+                <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+                
+                <form class="signup-form">
+                    <div class="name-fields">
+                        <input type="text" placeholder="First name" required>
+                        <input type="text" placeholder="Last name" required>
+                    </div>
+                    <input type="email" placeholder="Email" required>
+                    <div class="password-field">
+                        <input type="password" placeholder="Enter your password" required>
+                        <button type="button" class="toggle-password">
+                            <img src="assets/eye.png" alt="Toggle password visibility" class="eye-icon">
+                        </button>
+                    </div>
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                    </div>
+                    <button type="submit" class="create-account">Create account</button>
+                    
+                    <div class="divider">
+                        <span>Or register with</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="google-btn">
+                            <img src="assets/google.png" alt="Google" class="social-icon">
+                            <span>Google</span>
+                        </button>
+                        <button type="button" class="apple-btn">
+                            <img src="assets/apple.png" alt="Apple" class="social-icon">
+                            <span>Apple</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
